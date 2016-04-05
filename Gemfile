@@ -36,6 +36,8 @@ end
 
 gem 'bootstrap-sass', '~> 3.3.5.1'
 
+gem 'simple_form'
+
 gem 'sprockets', '2.11.0'
 \
 
