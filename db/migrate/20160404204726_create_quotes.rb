@@ -1,7 +1,5 @@
 class CreateQuotes < ActiveRecord::Migration
-  def up
-    drop_table :quotes
-
+  def change
     create_table :quotes do |t|
       
       t.string :saying
